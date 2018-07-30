@@ -32,7 +32,7 @@ const Welcome = (props) => {
 
 ### What is JSX ?
 
-Fundamentally, JSX just provides **_syntactic sugar_** for the **_React.createElement(component, props, ...children)_** function.
+Fundamentally, JSX just provides **syntactic sugar** for the **React.createElement(component, props, ...children)** function.
 [Read more.](https://reactjs.org/docs/introducing-jsx.html)
 
 JSX code example:
