@@ -1,0 +1,27 @@
+{
+  "name": "react-tuts",
+  "version": "1.0.0",
+  "description": "React tuts from basic to advance level",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amituidev/react-tuts.git"
+  },
+  "keywords": [
+    "reactjs",
+    "jsx",
+    "redux",
+    "router",
+    "saga",
+    "javascript"
+  ],
+  "author": "Amit Mishra <amitmishra009v@gmail.com> (http://amituidev.github.io/portfolio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amituidev/react-tuts/issues"
+  },
+  "homepage": "https://github.com/amituidev/react-tuts#readme"
+}
