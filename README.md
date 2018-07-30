@@ -51,3 +51,5 @@ ReactDOM.render(
     document.getElementById('root')
   );
 ```
+
+[Setup](https://github.com/amituidev/react-tuts/tree/setup#setup)
