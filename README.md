@@ -30,3 +30,7 @@ Let’s recap what happens in this example:
 
 **Note: Always start component names with a capital letter.**
 React treats components starting with lowercase letters as DOM tags. For example, <div /> represents an HTML div tag, but <Welcome /> represents a component and requires Welcome to be in scope.
+
+- [Setup](https://github.com/amituidev/react-tuts/tree/setup#setup)
+- [Components and Props](https://github.com/amituidev/react-tuts/tree/components-and-props#components-and-props)
+- [Component lifestyle and State](https://github.com/amituidev/react-tuts/tree/component-lifestyle-state#the-component-lifecycle)
