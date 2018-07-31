@@ -135,10 +135,90 @@ module.exports = {
 };
 ```
 
-Open package.json in your favorite code editor. In the scripts section, remove the test script, and add a script named webpack that compiles app.js. The scripts section should now look like this:
+Open package.json in your favorite code editor. In the scripts section, remove the test script, and add the following script. The scripts section should now look like this:
 
 ```
 "scripts": {
-    "webpack": "webpack"
+    "build": "webpack --mode production ",
+    "start": "webpack-dev-server --mode development --open"
+  },
+```
+
+#### Create app setup
+
+```
+mkdir app && cd app
+```
+
+```
+touch index.js & touch index.html
+```
+
+Add the following snippet in index.html
+
+```
+<html>
+
+<head>
+    <title>My Component Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+</body>
+
+</html>
+```
+
+Add the following snippet in index.js
+
+```
+import React from "react";
+import { render } from "react-dom";
+import App from "./container/index";
+
+render(<App />, document.getElementById("root"));
+```
+
+```
+mkdir container && cd container
+```
+
+Then create index.js file in container folder
+
+```
+touch index.js
+```
+
+Add the following snippet in index.js
+
+```
+import React, { Component } from "react";
+
+class App extends Component {
+  render() {
+    return <h1>Hello React</h1>;
+  }
 }
+
+export default App;
+```
+
+#### Run app in development mode
+
+```
+npm run start
+```
+
+It automatically open the http://localhost:3000
+
+#### Build app
+
+```
+npm run build
 ```
