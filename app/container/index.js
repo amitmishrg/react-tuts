@@ -1,35 +1,25 @@
 import React, { Component } from "react";
-import ErrorBoundary from "../components/error-boundary";
-import Info from "../components/info";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      count: 0
-    };
+    this.state = { isToggleOn: true };
+
+    // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  componentDidMount() {
-    console.log("component Did mount");
-    this.setState({ count: 1 });
-  }
-
-  shouldComponentUpdate(nextProps, nextState) {
-    console.log("shouldComponentUpdate", this.state, nextState);
-    return true;
-  }
-
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log("componentDidUpdate", prevState);
+  handleClick() {
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
   }
 
   render() {
     return (
-      <ErrorBoundary>
-        <h1>Count {this.state.count}</h1>
-        <Info />
-      </ErrorBoundary>
+      <button onClick={this.handleClick}>
+        {this.state.isToggleOn ? "ON" : "OFF"}
+      </button>
     );
   }
 }
