@@ -1,17 +1,37 @@
 import React, { Component } from "react";
+import ErrorBoundary from "../components/error-boundary";
+import Info from "../components/info";
 
-const Welcome = props => {
-  return <h1>Hello {props.name}</h1>;
-};
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
 
-const App = props => {
-  return (
-    <React.Fragment>
-      <Welcome name="Amit" />
-      <Welcome name="Rahul" />
-      <Welcome name="John" />
-    </React.Fragment>
-  );
-};
+  componentDidMount() {
+    console.log("component Did mount");
+    this.setState({ count: 1 });
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log("shouldComponentUpdate", this.state, nextState);
+    return true;
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log("componentDidUpdate", prevState);
+  }
+
+  render() {
+    return (
+      <ErrorBoundary>
+        <h1>Count {this.state.count}</h1>
+        <Info />
+      </ErrorBoundary>
+    );
+  }
+}
 
 export default App;
