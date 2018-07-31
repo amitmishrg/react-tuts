@@ -53,6 +53,16 @@ Add this code in .babelrc file
 npm install --save-dev webpack webpack-dev-server
 ```
 
+#### Install sass-loader node-sass and style-loader
+
+"style-loader" // creates style nodes from JS strings
+"css-loader" // translates CSS into CommonJS
+"sass-loader" // compiles Sass to CSS
+
+```
+npm install --save-dev style-loader css-loader sass-loader node-sass
+```
+
 #### Configure webpack to run using webpack-dev-server locally
 
 The first step is to create a webpack.config.js file by running
@@ -89,8 +99,24 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"]
+        test: /\.scss$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader",
+            options: {
+              sourceMap: true
+            }
+          },
+          {
+            loader: "sass-loader",
+            options: {
+              sourceMap: true
+            }
+          }
+        ]
       }
     ]
   },
