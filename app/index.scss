@@ -1,0 +1,52 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    from(#6d327c),
+    color-stop(#485da6),
+    color-stop(#00a1ba),
+    color-stop(#00bf98),
+    to(#36c486)
+  );
+  background-image: -webkit-linear-gradient(
+    left bottom,
+    #6d327c,
+    #485da6,
+    #00a1ba,
+    #00bf98,
+    #36c486
+  );
+  background-image: -o-linear-gradient(
+    left bottom,
+    #6d327c,
+    #485da6,
+    #00a1ba,
+    #00bf98,
+    #36c486
+  );
+  background-image: linear-gradient(
+    to right top,
+    #6d327c,
+    #485da6,
+    #00a1ba,
+    #00bf98,
+    #36c486
+  );
+}
