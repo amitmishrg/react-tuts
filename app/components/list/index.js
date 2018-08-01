@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../components/header/index";
-import Style from "./index.scss";
+import PropTypes from "prop-types";
+import "./index.scss";
 
 class List extends Component {
   delete(key) {
@@ -32,4 +33,8 @@ class List extends Component {
   }
 }
 
+List.propTypes = {
+  items: PropTypes.array,
+  delete: PropTypes.func
+};
 export default List;

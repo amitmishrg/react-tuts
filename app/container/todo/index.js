@@ -11,12 +11,12 @@ class App extends Component {
   }
 
   save(refs) {
-    let todo = refs.name.value;
+    let todo = refs.value;
     let newItems = { todo: todo, key: Date.now() };
     this.setState(prevState => {
       return { items: prevState.items.concat(newItems) };
     });
-    refs.name.value = "";
+    refs.value = "";
   }
 
   delete(key) {
