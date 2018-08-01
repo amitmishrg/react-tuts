@@ -4,7 +4,7 @@ import Style from "./index.scss";
 const Header = props => {
   return (
     <header>
-      <h4 contenteditable="true">{props.name}</h4>
+      <h4>{props.name}</h4>
     </header>
   );
 };
