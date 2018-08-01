@@ -1,0 +1,192 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    from(#6d327c),
+    color-stop(#485da6),
+    color-stop(#00a1ba),
+    color-stop(#00bf98),
+    to(#36c486)
+  );
+  background-image: -webkit-linear-gradient(
+    left bottom,
+    #6d327c,
+    #485da6,
+    #00a1ba,
+    #00bf98,
+    #36c486
+  );
+  background-image: -o-linear-gradient(
+    left bottom,
+    #6d327c,
+    #485da6,
+    #00a1ba,
+    #00bf98,
+    #36c486
+  );
+  background-image: linear-gradient(
+    to right top,
+    #6d327c,
+    #485da6,
+    #00a1ba,
+    #00bf98,
+    #36c486
+  );
+  main {
+    .heading-wrapper {
+      font-family: "Playfair Display", serif;
+      font-size: 40px;
+      line-height: 45px;
+      text-align: center;
+      color: #fff;
+      padding-top: 50px;
+    }
+    .btn-wrapper {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      i {
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+    }
+    .card-wrapper {
+      overflow: auto;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+    section {
+      margin: 15px;
+      &.cards {
+        flex: 0 0 auto;
+        position: relative;
+        overflow: hidden;
+        width: 400px;
+        height: 250px;
+        border-radius: 15px;
+        padding: 30px;
+        header {
+          color: #fff;
+          position: relative;
+          z-index: 1;
+          h4 {
+            font-size: 32px;
+            line-height: 22px;
+            font-weight: 400;
+            font-family: "Playfair Display", serif;
+          }
+          .portfolio-link {
+            &:before {
+              content: "";
+              width: 3px;
+              height: 22px;
+              background: rgba(255, 255, 255, 0.5);
+              position: absolute;
+              top: -20px;
+              left: 6px;
+              border-radius: 20px;
+            }
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            z-index: 1;
+            i {
+              color: rgba(255, 255, 255, 0.8);
+              font-size: 25px;
+              &:hover {
+                color: #fff;
+              }
+            }
+          }
+        }
+        .description {
+          position: absolute;
+          left: 20px;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 1;
+          p {
+            font-family: "Open Sans", sans-serif;
+            font-size: 22px;
+            line-height: 35px;
+            color: rgba(255, 255, 255, 0.8);
+          }
+        }
+
+        &.card1 {
+          background: #fc6a57;
+          .intraction {
+            .one {
+              width: 100%;
+              height: 40%;
+              background: #fe524e;
+              position: absolute;
+              bottom: -12%;
+              right: 0;
+              left: -5%;
+              transform: rotate(10deg);
+            }
+            .two {
+              width: 50%;
+              height: 100%;
+              background: linear-gradient(
+                135deg,
+                rgba(251, 166, 80, 1) 0%,
+                rgba(251, 151, 81, 1) 26%,
+                rgba(252, 119, 83, 1) 82%,
+                rgba(252, 112, 84, 1) 95%
+              );
+              position: absolute;
+              top: 0;
+              right: -15%;
+              transform: skew(20deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.add-btn {
+  width: 80px;
+  height: 80px;
+  background: #fc6a57;
+  color: #fff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  font-size: 25px;
+  border: transparent;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+*:focus {
+  outline: none;
+}
