@@ -4,6 +4,7 @@ import Info from "../components/info";
 
 class App extends Component {
   constructor(props) {
+    console.log('constructor');
     super(props);
     this.state = {
       count: 0
@@ -25,11 +26,9 @@ class App extends Component {
   }
 
   render() {
+    console.log('render');
     return (
-      <ErrorBoundary>
         <h1>Count {this.state.count}</h1>
-        <Info />
-      </ErrorBoundary>
     );
   }
 }
