@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import Form from "../../components/form/index.js";
-import List from "../../components/list/index";
+import React, { Component } from 'react';
+import Form from '../../components/form/index.js';
+import List from '../../components/list/index';
 
 class App extends Component {
   constructor(props) {
@@ -13,14 +13,14 @@ class App extends Component {
   save(refs) {
     let todo = refs.value;
     let newItems = { todo: todo, key: Date.now() };
-    this.setState(prevState => {
+    this.setState((prevState) => {
       return { items: prevState.items.concat(newItems) };
     });
-    refs.value = "";
+    refs.value = '';
   }
 
   delete(key) {
-    let filterItems = this.state.items.filter(item => {
+    let filterItems = this.state.items.filter((item) => {
       return item.key !== key;
     });
     this.setState({ items: filterItems });
