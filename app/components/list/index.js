@@ -1,6 +1,7 @@
-import React, { Component } from "react";
-import Header from "../../components/header/index";
-import Style from "./index.scss";
+import React, { Component } from 'react';
+import Header from '../../components/header/index';
+import PropTypes from 'prop-types';
+import './index.scss';
 
 class List extends Component {
   delete(key) {
@@ -11,7 +12,7 @@ class List extends Component {
     let items = this.props.items;
     let lists =
       items &&
-      items.map(item => {
+      items.map((item) => {
         return (
           <section className="cards card1" key={item.key}>
             <Header name={item && item.todo} />
@@ -32,4 +33,8 @@ class List extends Component {
   }
 }
 
+List.propTypes = {
+  items: PropTypes.array,
+  delete: PropTypes.func
+};
 export default List;
