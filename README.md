@@ -1,3 +1,7 @@
+<p align="center">
+ <img align="center" width="300" height="300" src="https://cdn-images-1.medium.com/max/512/1*6kK9j74vyOmXYm1gN6ARhQ.png">
+</p>
+
 # What is React js ?
 
 A javaScript library for building user interfaces. It uses a concept called the Virtual DOM that selectively renders subtrees of nodes based upon state changes. It does the least amount of DOM manipulation possible in order to keep your components up to date.
@@ -7,7 +11,9 @@ A javaScript library for building user interfaces. It uses a concept called the 
 Document Object Model (DOM) is Javascript Client Side API to represent and manipulate Document (HTML/XML).
 Every tag is a node. so html, head, body, title, a, p are nodes, Except link and script tags are not considered as node. html will be parent node and everything else will be children of the html.
 
-![](https://www.cronj.com/blog/wp-content/uploads/Dom.png)
+<p align="center">
+ <img align="center" width="800" src="https://www.cronj.com/blog/wp-content/uploads/Dom.png">
+</p>
 
 Although you have all the methods to change the DOM tree but it comes with lot of cost. If you want to change the some child node. Javascript has to repaint the window with margin, padding, color etc properties.
 
@@ -26,7 +32,9 @@ Chacha comes again and ask please change balloon no 80 to green. You remove all 
 
 Virtual DOM is React’s Object that represent the Browsers DOM, Which is intelligent to make changes in the DOM with the help of Diff Algorithm. Few Blog says, it is so fast that it can produce 20000 nodes per second.
 
-![](https://www.cronj.com/blog/wp-content/uploads/DOM2.png)
+<p align="center">
+ <img align="center" width="800" src="https://www.cronj.com/blog/wp-content/uploads/DOM2.png">
+</p>
 
 # How does it work ?
 
