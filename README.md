@@ -34,6 +34,9 @@ Virtual DOM is React’s Object that represent the Browsers DOM, Which is intell
 <p align="center">
  <img align="center" width="800" src="https://www.cronj.com/blog/wp-content/uploads/DOM2.png">
 </p>
+<p align="center">
+ <img align="center" width="800" src="https://raw.githubusercontent.com/amituidev/react-tuts/master/app/img/react-dom.png">
+</p>
 
 # How does it work ?
 
