@@ -34,3 +34,4 @@ React treats components starting with lowercase letters as DOM tags. For example
 - [Setup](https://github.com/amituidev/react-tuts/tree/setup#setup)
 - [Components and Props](https://github.com/amituidev/react-tuts/tree/components-and-props#components-and-props)
 - [Component lifestyle and State](https://github.com/amituidev/react-tuts/tree/component-lifestyle-state#the-component-lifecycle)
+- [Handling Events](https://github.com/amituidev/react-tuts/tree/handling-events#handling-events)
