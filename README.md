@@ -8,11 +8,10 @@ A javaScript library for building user interfaces. It uses a concept called the 
 
 # What is DOM ?
 
-Document Object Model (DOM) is Javascript Client Side API to represent and manipulate Document (HTML/XML).
-Every tag is a node. so html, head, body, title, a, p are nodes, Except link and script tags are not considered as node. html will be parent node and everything else will be children of the html.
+The DOM is an object-oriented representation of the web page. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
 
 <p align="center">
- <img align="center" width="800" src="https://www.cronj.com/blog/wp-content/uploads/Dom.png">
+ <img align="center" width="800" src="https://snipcademy.com/code/img/tutorials/javascript/dom.svg">
 </p>
 
 Although you have all the methods to change the DOM tree but it comes with lot of cost. If you want to change the some child node. Javascript has to repaint the window with margin, padding, color etc properties.
@@ -35,10 +34,6 @@ Virtual DOM is React’s Object that represent the Browsers DOM, Which is intell
 <p align="center">
  <img align="center" width="800" src="https://www.cronj.com/blog/wp-content/uploads/DOM2.png">
 </p>
-<p align="center">
- <img align="center" width="800" src="https://github.com/amituidev/react-tuts/raw/master/app/img/react-dom.png">
-</p>
-
 
 # How does it work ?
 
@@ -104,5 +99,3 @@ ReactDOM.render(
 - [Components and Props](https://github.com/amituidev/react-tuts/tree/components-and-props#components-and-props)
 - [Component lifestyle and State](https://github.com/amituidev/react-tuts/tree/component-lifestyle-state#the-component-lifecycle)
 - [Handling Events](https://github.com/amituidev/react-tuts/tree/handling-events#handling-events)
-
-- [Todo Example](https://amituidev.github.io/react-tuts/)
