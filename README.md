@@ -99,3 +99,4 @@ ReactDOM.render(
 - [Components and Props](https://github.com/amituidev/react-tuts/tree/components-and-props#components-and-props)
 - [Component lifestyle and State](https://github.com/amituidev/react-tuts/tree/component-lifestyle-state#the-component-lifecycle)
 - [Handling Events](https://github.com/amituidev/react-tuts/tree/handling-events#handling-events)
+- [Todo example] (https://amituidev.github.io/react-tuts/)
