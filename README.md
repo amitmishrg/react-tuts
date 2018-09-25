@@ -12,7 +12,9 @@
 
 # What is React js ?
 
-A javaScript library for building user interfaces. It uses a concept called the Virtual DOM that selectively renders subtrees of nodes based upon state changes. It does the least amount of DOM manipulation possible in order to keep your components up to date.
+A javaScript library for building user interfaces. 
+It uses a concept called the Virtual DOM that selectively renders subtrees of nodes based upon state changes. 
+It does the least amount of DOM manipulation possible in order to keep your components up to date.
 
 # What is DOM ?
 
