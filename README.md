@@ -34,7 +34,7 @@ You have decorated the room with 100 balloons.
 
 Now your chacha told you color of each balloon should be red. so you remove all the balloons and now decorate the room with red balloons.
 
-Chacha comes and ask you now change the change the balloon no. 90 with blue colored ballon. now you remove all balloons and bring 99 red balloons and 1 blue balloon and paint accordingly.
+Chacha comes again and ask you now change the balloon no. 90 with blue colored ballon. Now you remove all balloons and bring 99 red balloons and 1 blue balloon and paint accordingly.
 
 Chacha comes again and ask please change balloon no 80 to green. You remove all the balloons. Go market bring 98 red, 1 blue, 1 green. And decorate the room accordingly.
 
