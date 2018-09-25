@@ -32,11 +32,11 @@ DOM object knows how to re-render the page but it is not so intelligent to keep 
 **Lets take an example -**
 You have decorated the room with 100 balloons.
 
-Now your chacha told you color of each balloon should be red. so you remove all the balloons and now decorate the room with red balloons.
+Now your chacha <img align="center" width="25" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/129/older-man_emoji-modifier-fitzpatrick-type-6_1f474-1f3ff_1f3ff.png"> told you color of each balloon should be red. so you remove all the balloons and now decorate the room with red balloons.
 
-Chacha comes again and ask you now change the balloon no. 90 with blue colored ballon. Now you remove all balloons and bring 99 red balloons and 1 blue balloon and paint accordingly.
+Chacha <img align="center" width="25" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/129/older-man_emoji-modifier-fitzpatrick-type-6_1f474-1f3ff_1f3ff.png"> comes again and ask you now change the balloon no. 90 with blue colored ballon. Now you remove all balloons and bring 99 red balloons and 1 blue balloon and paint accordingly.
 
-Chacha comes again and ask please change balloon no 80 to green. You remove all the balloons. Go market bring 98 red, 1 blue, 1 green. And decorate the room accordingly.
+Chacha <img align="center" width="25" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/129/older-man_emoji-modifier-fitzpatrick-type-6_1f474-1f3ff_1f3ff.png"> comes again and ask please change balloon no 80 to green. You remove all the balloons. Go market bring 98 red, 1 blue, 1 green. And decorate the room accordingly.
 
 # What is Virtual Dom ?
 
