@@ -3,7 +3,7 @@
 </p>
 
 # Content
-- [Introduction to React JS & Virtual Dom ](https://github.com/amituidev/react-tuts/tree/master)
+- [Introduction to React JS & Virtual Dom ](https://github.com/amituidev/react-tuts/tree/master#what-is-react-js-)
 - [Basic Project Setup](https://github.com/amituidev/react-tuts/tree/setup#setup)
 - [Components and Props](https://github.com/amituidev/react-tuts/tree/components-and-props#components-and-props)
 - [Component lifestyle and State](https://github.com/amituidev/react-tuts/tree/component-lifestyle-state#the-component-lifecycle)
